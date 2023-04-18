@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/themify-icons/themify-icons/themify-icons.css';
+@import '~wowjs/css/libs/animate.css';
+
+.carousel-indicators .active {
+    width: 35px !important;
+    background-color: #c38e44 !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cover-background {
+    position: relative !important;
+    background-size: cover !important;
+    overflow: hidden !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}

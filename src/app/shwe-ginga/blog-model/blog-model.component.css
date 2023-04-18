@@ -1,0 +1,58 @@
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.mt-n1-9 {
+    margin-top: 1.9rem!important;
+}
+.card :hover{
+    opacity: 0.8;
+}
+.card-style3 {
+    box-shadow: 0 3px 6px 0 #dee2e6b0;
+}
+.card-style3 {
+    background-image: url(../../../assets/Images/bg-3.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 3px 6px 0 #dee2e6b0;
+}
+.sg-blog {
+    padding: 18px 25px;
+}
+.butn-style3 {
+    background: unset;
+    padding: 15px 0;
+    text-transform: unset;
+    border: none;
+}
+.text-primary {
+    color: #c38e44 !important;
+}
+p {
+    margin: 0 0 20px;
+}
+.modal-title {
+    font-size: 1rem;
+    color: #c38e44;
+}
+.modal-dialog {
+    max-width: 800px;
+}
+.title-style1 h2 {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    padding: 0 0 20px;
+}
+h2{
+    
+        margin-top: 0;
+        margin-bottom:50px;
+        font-weight: 500;
+        line-height: 1.2;
+    
+    
+}
