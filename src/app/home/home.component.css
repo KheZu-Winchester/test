@@ -707,7 +707,7 @@ a:hover{
 .scroll-to-top {
     background: linear-gradient(to right, #eb3349, #f45c43);
 }
-.scroll-to-top:hover,i{
+.scroll-to-top:hover{
     background-color: #FFF;
     color :#000;
     border:1px solid #FFF;
