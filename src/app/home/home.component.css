@@ -15,6 +15,7 @@
     font-weight: bold;
     vertical-align: top;
 }
+
 .butn-style1:before {
     content: "";
     position: absolute;
