@@ -627,7 +627,7 @@ a:hover{
           }
           
    .hover-data:hover{
-        transform: translateX(50px);
+        transform: translateX(20px);
         transition: transform 1s linear;
     }
     
