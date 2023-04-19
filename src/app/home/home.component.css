@@ -29,6 +29,12 @@
     transition: all 0.4s linear;
     background: #ef4746;
 }
+.display-10 {
+    font-size: 2.9rem;
+}
+.card-style2:hover i, .card-style2:hover h3, .card-style2:hover p {
+    color: #fff !important;
+}
 .butn-style1:hover:before, .butn-style1:active:before, .butn-style1:focus:before {
     transform: translateX(0) rotate(195deg);
 }
@@ -253,9 +259,7 @@ a, a:active, a:focus {
         color: #575a7b;
         text-decoration: none;
 }
-.display-10{
-margin-left: 50px;
-}
+
 .h5 {
     font-size: 1.20rem;
     color: #212121;
