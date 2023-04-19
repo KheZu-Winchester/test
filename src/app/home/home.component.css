@@ -31,7 +31,7 @@
     background: #ef4746;
 }
 .display-10 {
-    font-size: 2.9rem;
+    font-size: 2.9rem !important;
 }
 .card-style2:hover i, .card-style2:hover h3, .card-style2:hover p {
     color: #fff !important;
