@@ -40,7 +40,7 @@
     transform: translateX(0) rotate(195deg);
 }
 .butn-style1:hover, .butn-style1:active, .butn-style1:focus {
-    color: #fff;
+    color: white;
 }
 .butn-style1:hover:before, .butn-style1:active:before, .butn-style1:focus:before {
     transform: translateX(0) rotate(195deg);
