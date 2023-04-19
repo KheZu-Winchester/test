@@ -83,3 +83,7 @@ p {
     margin-bottom: 20px;
     padding: 0 0 20px;
 }
+.carousel-indicators .active {
+    width: 35px !important;
+    background-color: #eb3349 !important;
+}
