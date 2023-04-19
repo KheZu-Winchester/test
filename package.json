@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "@ng-bootstrap/ng-bootstrap": "^14.1.0",
     "bootstrap": "^5.2.3",
     "jquery": "^3.5.1",
     "ngx-wow": "^2.0.1",

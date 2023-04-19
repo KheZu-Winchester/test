@@ -144,6 +144,7 @@ section {
 .scroll-to-top {
     background: linear-gradient(to right, #eb3349, #f45c43);
 }
+
 .scroll-to-top {
     font-size: 20px;
     text-align: center;
@@ -164,10 +165,6 @@ section {
 }
 .scroll-to-top i {
     color: #fff;
-}
-.scroll-to-top:visited {
-    color: #232323;
-    text-decoration: none;
 }
 .scroll-to-top:hover{
     background-color: #FFF;

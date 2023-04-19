@@ -4,10 +4,10 @@
       <a class="navbar-brand" href="#page-top">
         <img id="logo" src="assets/Images/logo-inner.png" class="img-fluid" alt="logo">
       </a>
-      <button class="navbar-toggler menu-opened" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler menu-opened" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"(click)="isCollapsed = !isCollapsed">
         <span class="navbar-toggler-icon"></span> 
       </button> 
-      <div class="collapse navbar-collapse" id="nav" style="display:block;">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="display:block;">
           <ul class="navbar-nav ms-auto open text-uppercase ms-auto py-4 py-lg-0">
               <li class="nav-item active" routerLink="/home" ><a class="nav-link">HOME</a></li>
               <li class="nav-item" ><a class="nav-link" routerLink="/shwe-ginga">SHWE GINGA</a></li>

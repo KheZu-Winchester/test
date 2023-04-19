@@ -20,7 +20,6 @@ import { ShweGingaComponent } from './shwe-ginga/shwe-ginga.component';
 import { BlogModelComponent } from './shwe-ginga/blog-model/blog-model.component';
 import { PrawnsExportComponent } from './prawns-export/prawns-export.component';
 import { NgwWowModule } from 'ngx-wow';
-
 @NgModule({
   declarations: [
     AppComponent,

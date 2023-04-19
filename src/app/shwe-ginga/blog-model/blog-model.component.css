@@ -56,3 +56,8 @@ h2{
     
     
 }
+.card-body a:hover{
+    text-decoration: none;
+    color :#f93a0a;
+
+}
