@@ -25,3 +25,9 @@ body{
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
+.active{
+    font-weight: bold;
+    color: #c31823;
+}
+
+ul > li.active > a{color: #c31823 !important;}

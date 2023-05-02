@@ -9,22 +9,22 @@
       </button> 
       <div class="collapse navbar-collapse" id="navbarNavDropdown" style="display:block;">
           <ul class="navbar-nav ms-auto open text-uppercase ms-auto py-4 py-lg-0">
-              <li class="nav-item active" routerLink="/home" ><a class="nav-link">HOME</a></li>
-              <li class="nav-item" ><a class="nav-link" routerLink="/shwe-ginga">SHWE GINGA</a></li>
-              <li class="nav-item ">
+              <li class="nav-item active" [routerLinkActive]="'active'" routerLinkActive="{true}"><a class="nav-link" routerLink="/home">HOME</a></li>
+              <li class="nav-item" [routerLinkActive]="'active'"><a class="nav-link" routerLink="/shwe-ginga">SHWE GINGA</a></li>
+              <li class="nav-item " [routerLinkActive]="'active'">
                 <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
                   Our Products
                 </a>
                 <ul class="dropdown-menu sub-menu">
-                  <li class="dropdown-item" routerLink="/SeawaterFishes">Seawater Fishes</li>
-                  <li class="dropdown-item" routerLink="/fishwaterfishes">Fish water Fishes</li>
-                  <li class="dropdown-item" routerLink="/crabexports">Crab Excd ports</li>
-                  <li class="dropdown-item" routerLink="/prawns">Prawns Exports</li>
-                  <li class="dropdown-item" routerLink="/OtherSeafood">Our Other Seafood Exports</li>
+                  <li class="dropdown-item" [routerLinkActive]="'active'" routerLink="/SeawaterFishes">Seawater Fishes</li>
+                  <li class="dropdown-item" [routerLinkActive]="'active'" routerLink="/fishwaterfishes">Fish water Fishes</li>
+                  <li class="dropdown-item" [routerLinkActive]="'active'" routerLink="/crabexports">Crab Excd ports</li>
+                  <li class="dropdown-item" [routerLinkActive]="'active'" routerLink="/prawns">Prawns Exports</li>
+                  <li class="dropdown-item" [routerLinkActive]="'active'" routerLink="/OtherSeafood">Our Other Seafood Exports</li>
                 </ul>
               </li> 
-              <li class="nav-item"><a class="nav-link" routerLink="/about">ABOUT GOC</a></li>
-              <li class="nav-item"><a class="nav-link" routerLink="/contact">CONTACT</a></li>
+              <li class="nav-item" [routerLinkActive]="'active'"><a class="nav-link" routerLink="/about">ABOUT GOC</a></li>
+              <li class="nav-item" [routerLinkActive]="'active'"><a class="nav-link" routerLink="/contact">CONTACT</a></li>
           </ul>
       </div>
       </div>
