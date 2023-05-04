@@ -26,8 +26,8 @@ body{
     background-repeat: no-repeat !important;
 }
 .active{
-    font-weight: bold;
+    font-weight: bold !important;
     color: #c31823;
 }
 
-ul > li.active > a{color: #c31823 !important;}
+ul > li.active > a{color: #c31823 !important;font-weight: bold !important;}
